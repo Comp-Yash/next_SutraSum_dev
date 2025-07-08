@@ -119,7 +119,7 @@ export async function POST(request: NextRequest) {
             {
               parts: [
                 {
-                  text: `Please provide a concise and comprehensive summary of the following text. Focus on the main points, key insights, and important details. Keep the summary between 400 words . Proper well structured summary (dont use *):\n\n${text}`,
+                  text: `Please provide a concise and comprehensive summary of the following text. Focus on the main points, key insights, and important details. Keep the summary between 300 words . Proper well structured summary (dont use *):\n\n${text}`,
                 },
               ],
             },
